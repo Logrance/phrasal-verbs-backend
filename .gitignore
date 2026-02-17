@@ -8,4 +8,7 @@ __pycache__/
 .venv/
 venv/
 
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
 .DS_Store
