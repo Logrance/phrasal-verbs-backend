@@ -23,6 +23,7 @@ async def lifespan(app: FastAPI):
     app.state.collection = app.state.db["phrasal_data"]
     app.state.conversations = app.state.db["conversations"]
     app.state.gap_fill_exercises = app.state.db["gap_fill_exercises"]
+    app.state.user_progress = app.state.db["user_progress"]
     print("MongoDB connected")
 
     try:
